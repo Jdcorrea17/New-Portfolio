@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Joshua Correa</h1>
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="header-nav-item">
+                        <a href="#" class="header-nav-link">Home</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="#portfolio" class="header-nav-link">Portfolio</a>
+                    </li>
+                    <li class="header-nav-item header-nav-item-contact">
+                        <a href="#contact" class="header-nav-link">Contact</a>
+                    </li>
+                    <li class="header-nav-item header-nav-item-github">
+                        <a href="https://github.com/jdcorrea17" target="_blank" class="header-nav-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- INTRO -->
+    <section class="intro">
+        <div class="container">
+            <h2 class="intro-title">Hi my name is Joshua Correa 💻</h2>
+            <h3 class="intro-subtitle">
+                I am a web developer, I enjoy coding and designing new projects. Learning in every step as we go!
+            </h3>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="gallery">
+        <div class="container">
+            <div class="gallery-grid">
+
+                <!-- CARD 1 -->
+                <div class="gallery-item">
+                    <label for="modal-1">
+                        <span class="gallery-image-container"
+                              style="background-image: url('./img/NetRunner-Website.png');"></span>
+                    </label>
+                    <input type="checkbox" id="modal-1" class="gallery-modal-checkbox">
+                    <div class="gallery-modal">
+                        <label for="modal-1" class="gallery-modal-close">&times;</label>
+                        <img src="./img/NetRunner-Website.png"
+                             alt="NetRunner website"
+                             class="gallery-modal-image">
+                    </div>
+                    <div class="gallery-item-info">
+                        <span class="gallery-item-title">NetRunner Designs</span>
+                        <a href="https://github.com/Jdcorrea17/Javascript" target="_blank" class="gallery-item-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="gallery-item">
+                    <label for="modal-2">
+                        <span class="gallery-image-container"
+                              style="background-image: url('./img/Cyberpunk-clock.png');"></span>
+                    </label>
+                    <input type="checkbox" id="modal-2" class="gallery-modal-checkbox">
+                    <div class="gallery-modal">
+                        <label for="modal-2" class="gallery-modal-close">&times;</label>
+                        <img src="./img/Cyberpunk-clock.png"
+                             alt="Cyberpunk 2077 Clock"
+                             class="gallery-modal-image">
+                    </div>
+                    <div class="gallery-item-info">
+                        <span class="gallery-item-title">Cyberpunk 2077 Clock</span>
+                        <a href="https://github.com/Jdcorrea17/Cyberpunk-Clock" target="_blank" class="gallery-item-link">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="contact-title">Contact Me</h2>
+            <p class="contact-description">
+                Feel free to reach out to me via email: jdcorrea17@gmail.com
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2026 Joshua Correa. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
